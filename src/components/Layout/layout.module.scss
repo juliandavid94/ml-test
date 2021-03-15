@@ -1,0 +1,13 @@
+@import '../../variables';
+
+.container{
+    background: $background-gray;
+    margin: 0!important;
+    min-height: calc(100vh);
+}
+
+.products{
+    margin: 50px auto 100px auto;
+    background: $background-white;
+    border-radius: 5px;
+}

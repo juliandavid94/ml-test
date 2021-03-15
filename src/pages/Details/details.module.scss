@@ -1,0 +1,80 @@
+@import '../../variables';
+@use "sass:color";
+
+.card{
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+.img{
+    width: 70%;
+    text-align: center;
+    margin-right: 1.5rem;
+}
+
+.box_flex{
+    display: flex;
+}
+
+.img img{
+    width: 100%;
+    width: -webkit-fill-available;
+}
+
+.checkout_button{
+    background-color: $background-blue;
+    color: $background-white;
+    width: 100%;
+    font-weight: 600;
+    height: 48px;
+    border-radius: 5px;
+    -webkit-transition: .18s ease-out;
+    transition: .18s ease-out;
+    -webkit-transition-property: background,color;
+    transition-property: background,color;
+    -webkit-font-smoothing: antialiased;
+    border: transparent;
+    margin-top: 20px;
+}
+
+.checkout_button:hover{
+    background-color: scale-color($background-blue, $lightness: -40%);
+    color: $background-gray;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 4px!important;
+}
+
+.description{
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 15px!important;
+    margin-top: 25px!important;
+    text-align: left;
+}
+
+.text_description{
+    font-size: 15px;
+    font-weight: 300;
+    text-align: justify;
+    margin-bottom: 30px!important;
+}
+
+.purchase{
+    width: 25%;
+}
+
+.price{
+    font-size: xx-large;
+}
+
+.columns_feature{
+    column-count: 2;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+}
+
